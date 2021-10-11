@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-gen",
+  "version": "1.0.0",
+  "description": "A CLI application for making an HTML page that shows important employee information at a glance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoctorMuch/team-profile-gen.git"
+  },
+  "keywords": [
+    "CLI",
+    "HTML",
+    "OOP",
+    "TDD"
+  ],
+  "author": "David F Mueth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoctorMuch/team-profile-gen/issues"
+  },
+  "homepage": "https://github.com/DoctorMuch/team-profile-gen#readme"
+}
