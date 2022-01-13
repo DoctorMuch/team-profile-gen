@@ -1,20 +1,4 @@
 
-const makeCard = data => {
-  return `
-  <section class="card" id="teammate">
-    <div class="card-body">
-      <h3>(${data})</h3>
-    </div>
-  </section>
-  `;
-};
-
-
-const generateHtml = templateData => {
-  console.log('Data from index:', templateData);
-  const [Manager, Engineer, Intern] = templateData;
-  console.log(Manager);
-  return `
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -36,41 +20,38 @@ const generateHtml = templateData => {
     <main class="container my-5">
       <section class="card" id="manager">
         <div class="card-header">
-          <h2>${Manager.getName()}</h2>
-          <h3>${Manager.getRole()}</h3>
+          <h2>Name: Richard Hendricks</h2>
+          <h3>Manager</h3>
         </div>
         <div class="card-body">
-          <p>${Manager.getId()}</p>
-          <p>${Manager.getEmail()}</p>
-          <p>${Manager.getOfficeNumber()}</p>
+          <p>ID: 88</p>
+          <p>Email: richard@piedpiper.net</p>
+          <p>Office Number: 55A</p>
         </div>
       </section>
       <section class="card" id="manager">
         <div class="card-header">
-          <h2>${Engineer.getName()}</h2>
-          <h3>${Engineer.getRole()}</h3>
+          <h2>Name: Gilfoyle</h2>
+          <h3>Engineer</h3>
         </div>
         <div class="card-body">
-          <p>${Engineer.getId()}</p>
-          <p>${Engineer.getEmail()}</p>
-          <p>${Engineer.getGithub()}</p>
+          <p>ID: 666</p>
+          <p>Email: gilfoyle@piedpiper.net</p>
+          <p>GitHub: HailSatan</p>
         </div>
       </section>
       <section class="card" id="manager">
         <div class="card-header">
-          <h2>${Intern.getName()}</h2>
-          <h3>${Intern.getRole()}</h3>
+          <h2>Name: Jared</h2>
+          <h3>Intern</h3>
         </div>
         <div class="card-body">
-          <p>${Intern.getId()}</p>
-          <p>${Intern.getEmail()}</p>
-          <p>${Intern.getSchool()}</p>
+          <p>ID: 04</p>
+          <p>Email: donald@piedpiper.net</p>
+          <p>School: Hard Knocks</p>
         </div>
       </section>
     </main>
   </body>
   </html>
-  `;
-};
-
-module.exports = generateHtml;
+  
