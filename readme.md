@@ -22,7 +22,8 @@
   ---
   ### Usage
   This is an application intended to keep track of small teams within an organization.
-
+  
+  [Screencastify Video](https://watch.screencastify.com/v/c9fYH4JeEkaaD9Zq1SU7)
   
   ---
   ### License
